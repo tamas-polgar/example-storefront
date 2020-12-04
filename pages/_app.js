@@ -6,6 +6,7 @@ import { ContextProviders } from "context/ContextProviders";
 import { ComponentsProvider } from "@reactioncommerce/components-context";
 import components from "custom/componentsContext";
 import theme from "custom/reactionTheme";
+import "react-circular-progressbar/dist/styles.css";
 
 export default class App extends NextApp {
   componentDidMount() {
